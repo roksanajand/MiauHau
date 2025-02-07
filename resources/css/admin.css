@@ -1,0 +1,39 @@
+/* Admin-specific styles */
+
+body {
+    background-color: #f4f6f9; /* Jasny szary dla tła */
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 160px); /* Wysokość strony bez nagłówka i stopki */
+    text-align: center;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+button.bg-green-500,
+button.bg-red-500 {
+    font-size: 0.875rem; /* Mniejszy rozmiar czcionki */
+    padding: 0.5rem 1rem; /* Zmniejszone odstępy wewnętrzne */
+    border-radius: 0.25rem; /* Lekko zaokrąglone rogi */
+}
+
+
+button.bg-green-500:hover,
+button.bg-red-500:hover {
+    transform: scale(1.05); /* Delikatne powiększenie przy najechaniu */
+}
