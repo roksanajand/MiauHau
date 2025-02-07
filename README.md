@@ -4,18 +4,18 @@ MiauHau is a web application built with **Laravel** that allows users to create 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### ✅ User Features:
+### User Features:
 - User profile creation and management
 - Adding and editing pet profiles
 - Searching for pets based on characteristics
 - Liking other pets
 
-### ✅ Admin Features:
+### Admin Features:
 - Approving or rejecting pet profiles
 
-### ✅ Technology Stack:
+###  Technology Stack:
 - **Backend:** Laravel (PHP)
 - **Frontend:** Blade, CSS
 - **Database:** MySQL
@@ -24,7 +24,7 @@ MiauHau is a web application built with **Laravel** that allows users to create 
 ---
 
 
-## 🛠 Testing
+## Testing
 
 Run unit and acceptance tests:
 ```bash
