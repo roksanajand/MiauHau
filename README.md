@@ -23,16 +23,3 @@ MiauHau is a web application built with **Laravel** that allows users to create 
 
 ---
 
-
-## Testing
-
-Run unit and acceptance tests:
-```bash
-php artisan test
-```
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
-
